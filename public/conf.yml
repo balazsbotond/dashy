@@ -8,10 +8,12 @@ appConfig:
   layout: auto
   iconSize: medium
   language: en
+  defaultOpeningMethod: sametab
 pageInfo:
   title: Kezdőlap
   description: Üdv újra itt!
   footerText: ''
+  navLinks: []
 sections:
   - name: Olvasás
     icon: fas fa-rocket
