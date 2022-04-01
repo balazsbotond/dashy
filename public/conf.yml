@@ -1,5 +1,5 @@
 appConfig:
-  theme: colorful
+  theme: nord-frost
   auth:
     users:
       - user: botond
@@ -97,4 +97,4 @@ sections:
         icon: fas fa-sync
         url: http://localhost:8384/
         target: newtab
-        id: 5_1054_syncthingcloud
+        id: 5_1054_syncthinglocal
