@@ -9,13 +9,8 @@ appConfig:
   iconSize: medium
   language: en
 pageInfo:
-  title: Dashy
-  description: Welcome to your new dashboard!
-  navLinks:
-    - title: GitHub
-      path: https://github.com/Lissy93/dashy
-    - title: Documentation
-      path: https://dashy.to/docs
+  title: Kezdőlap
+  description: Üdv újra itt!
   footerText: ''
 sections:
   - name: Olvasás
