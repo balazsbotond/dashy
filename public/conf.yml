@@ -141,15 +141,6 @@ sections:
           https://eu-central-1.console.aws.amazon.com/cloudwatch/home?region=eu-central-1#home:
         target: sametab
         id: 5_235_cloudwatch
-      - title: AWS JS SDK
-        icon: fas fa-book
-        url: https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/index.html
-        id: 6_235_awsjssdk
-      - title: AWS JS SDK Guide
-        icon: fas fa-book
-        url: >-
-          https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/welcome.html
-        id: 7_235_awsjssdkguide
   - name: Munkahely
     icon: fas fa-briefcase
     displayData:
@@ -188,4 +179,22 @@ sections:
         icon: fas fa-car
         url: https://eu-dev.anpr-cloud.com/
         target: sametab
-        id: 5_942_devportaleu
+        id: 5_942_devportaleudev
+  - name: Dokumentáció
+    icon: fas fa-book
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: AWS JS SDK
+        icon: fas fa-book
+        url: https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/index.html
+        id: 0_1511_awsjssdk
+      - title: AWS JS SDK Guide
+        icon: fas fa-book
+        url: >-
+          https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/welcome.html
+        id: 1_1511_awsjssdkguide
