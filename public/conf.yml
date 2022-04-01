@@ -1,52 +1,105 @@
----
-# Page meta info, like heading, footer text and nav links
-pageInfo:
-  title: Dashy
-  description: Welcome to your new dashboard!
-  navLinks:
-  - title: GitHub
-    path: https://github.com/Lissy93/dashy
-  - title: Documentation
-    path: https://dashy.to/docs
-
-# Optional app settings and configuration
 appConfig:
   theme: colorful
   auth:
     users:
-    - user: botond
-      hash: D6506D026903E6EB4400CE7402CCBA8455E4A7FB9DA66AED499AEE1D76B44DD0
-      type: admin
-
-# Main content - An array of sections, each containing an array of items
+      - user: botond
+        hash: D6506D026903E6EB4400CE7402CCBA8455E4A7FB9DA66AED499AEE1D76B44DD0
+        type: admin
+  layout: auto
+  iconSize: medium
+  language: en
+pageInfo:
+  title: Dashy
+  description: Welcome to your new dashboard!
+  navLinks:
+    - title: GitHub
+      path: https://github.com/Lissy93/dashy
+    - title: Documentation
+      path: https://dashy.to/docs
+  footerText: ''
 sections:
-- name: Getting Started
-  icon: fas fa-rocket
-  items:
-  - title: Dashy Live
-    description: Development a project management links for Dashy
-    icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-    url: https://live.dashy.to/
-    target: newtab
-  - title: GitHub
-    description: Source Code, Issues and Pull Requests
-    url: https://github.com/lissy93/dashy
-    icon: favicon
-  - title: Docs
-    description: Configuring & Usage Documentation
-    provider: Dashy.to
-    icon: far fa-book
-    url: https://dashy.to/docs
-  - title: Showcase
-    description: See how others are using Dashy
-    url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
-    icon: far fa-grin-hearts
-  - title: Config Guide
-    description: See full list of configuration options
-    url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
-    icon: fas fa-wrench
-  - title: Support
-    description: Get help with Dashy, raise a bug, or get in contact
-    url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
-    icon: far fa-hands-helping
-  
+  - name: Olvasás
+    icon: fas fa-rocket
+    items:
+      - title: Telex
+        description: telex.hu
+        icon: favicon
+        url: https://telex.hu
+        target: newtab
+        id: 0_857_telex
+      - title: Válasz Online
+        description: valaszonline.hu
+        icon: favicon
+        url: https://valaszonline.hu
+        target: newtab
+        id: 1_857_vlaszonline
+      - title: Hacker News
+        description: ''
+        icon: favicon
+        url: https://news.ycombinator.com
+        target: newtab
+        provider: ''
+        id: 2_857_hackernews
+      - title: Reddit
+        description: ''
+        icon: favicon
+        url: https://reddit.com
+        target: newtab
+        id: 3_857_reddit
+      - title: Lobsters
+        description: ''
+        icon: favicon
+        url: https://lobste.rs
+        target: newtab
+        id: 4_857_lobsters
+      - title: Reader
+        description: ''
+        icon: fas fa-book
+        url: https://reader.botond.online
+        target: newtab
+        id: 5_857_reader
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+  - name: Self-Hosted
+    icon: fas fa-house
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Plog
+        icon: fas fa-pen
+        url: https://plog.botond.online
+        target: newtab
+        id: 0_1054_plog
+      - title: Reader
+        icon: fas fa-book
+        url: https://reader.botond.online
+        target: newtab
+        id: 1_1054_reader
+      - title: Analytics
+        icon: fas fa-chart-line
+        url: https://analytics.botond.online
+        target: newtab
+        id: 2_1054_analytics
+      - title: Blog
+        icon: fas fa-blog
+        url: https://tatooine-sunset.botond.online
+        target: newtab
+        id: 3_1054_blog
+      - title: Syncthing (cloud)
+        icon: fas fa-sync
+        url: https://syncthing.botond.online
+        target: newtab
+        id: 4_1054_syncthingcloud
+      - title: Syncthing (local)
+        icon: fas fa-sync
+        url: http://localhost:8384/
+        target: newtab
+        id: 5_1054_syncthingcloud
