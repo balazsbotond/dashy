@@ -20,38 +20,37 @@ sections:
         description: telex.hu
         icon: favicon
         url: https://telex.hu
-        target: newtab
+        target: sametab
         id: 0_857_telex
       - title: Válasz Online
         description: valaszonline.hu
         icon: favicon
         url: https://valaszonline.hu
-        target: newtab
+        target: sametab
         id: 1_857_vlaszonline
       - title: Hacker News
         description: ''
         icon: favicon
         url: https://news.ycombinator.com
-        target: newtab
-        provider: ''
+        target: sametab
         id: 2_857_hackernews
       - title: Reddit
         description: ''
         icon: favicon
         url: https://reddit.com
-        target: newtab
+        target: sametab
         id: 3_857_reddit
       - title: Lobsters
         description: ''
         icon: favicon
         url: https://lobste.rs
-        target: newtab
+        target: sametab
         id: 4_857_lobsters
       - title: Reader
         description: ''
         icon: fas fa-book
         url: https://reader.botond.online
-        target: newtab
+        target: sametab
         id: 5_857_reader
     displayData:
       sortBy: default
@@ -71,32 +70,32 @@ sections:
       - title: Plog
         icon: fas fa-pen
         url: https://plog.botond.online
-        target: newtab
+        target: sametab
         id: 0_1054_plog
       - title: Reader
         icon: fas fa-book
         url: https://reader.botond.online
-        target: newtab
+        target: sametab
         id: 1_1054_reader
       - title: Analytics
         icon: fas fa-chart-line
         url: https://analytics.botond.online
-        target: newtab
+        target: sametab
         id: 2_1054_analytics
       - title: Blog
         icon: fas fa-blog
         url: https://tatooine-sunset.botond.online
-        target: newtab
+        target: sametab
         id: 3_1054_blog
       - title: Syncthing (cloud)
         icon: fas fa-sync
         url: https://syncthing.botond.online
-        target: newtab
+        target: sametab
         id: 4_1054_syncthingcloud
       - title: Syncthing (local)
         icon: fas fa-sync
         url: http://localhost:8384/
-        target: newtab
+        target: sametab
         id: 5_1054_syncthinglocal
   - name: AWS
     icon: fas fa-cloud
@@ -142,3 +141,51 @@ sections:
           https://eu-central-1.console.aws.amazon.com/cloudwatch/home?region=eu-central-1#home:
         target: sametab
         id: 5_235_cloudwatch
+      - title: AWS JS SDK
+        icon: fas fa-book
+        url: https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/index.html
+        id: 6_235_awsjssdk
+      - title: AWS JS SDK Guide
+        icon: fas fa-book
+        url: >-
+          https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/welcome.html
+        id: 7_235_awsjssdkguide
+  - name: Munkahely
+    icon: fas fa-briefcase
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: GitLab
+        icon: fab fa-gitlab
+        url: http://gitlab.globessey.local/
+        target: sametab
+        id: 0_942_gitlab
+      - title: Redmine
+        icon: fas fa-circle-notch
+        url: http://192.168.254.12/
+        target: sametab
+        id: 1_942_redmine
+      - title: Artifactory
+        icon: fas fa-archive
+        url: http://artifactory.globessey.local:8081/artifactory/webapp/#/home
+        target: sametab
+        id: 2_942_artifactory
+      - title: HR
+        icon: fas fa-users
+        url: http://hr.ar.local/
+        target: sametab
+        id: 3_942_hr
+      - title: DevPortal EU
+        icon: fas fa-car
+        url: https://eu.anpr-cloud.com/
+        target: sametab
+        id: 4_942_devportaleu
+      - title: DevPortal EU-dev
+        icon: fas fa-car
+        url: https://eu-dev.anpr-cloud.com/
+        target: sametab
+        id: 5_942_devportaleu
