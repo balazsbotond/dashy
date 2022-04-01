@@ -98,3 +98,47 @@ sections:
         url: http://localhost:8384/
         target: newtab
         id: 5_1054_syncthinglocal
+  - name: AWS
+    icon: fas fa-cloud
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Lambda
+        icon: fas fa-lambda
+        url: >-
+          https://eu-central-1.console.aws.amazon.com/lambda/home?region=eu-central-1#/layers
+        target: sametab
+        id: 0_235_lambda
+      - title: API Gateway
+        icon: fas fa-door-open
+        url: >-
+          https://eu-central-1.console.aws.amazon.com/apigateway/main/apis?region=eu-central-1
+        target: sametab
+        id: 1_235_apigateway
+      - title: S3
+        icon: fas fa-folder
+        url: https://s3.console.aws.amazon.com/s3/buckets?region=eu-central-1
+        target: sametab
+        id: 2_235_s
+      - title: DynamoDB
+        icon: fas fa-database
+        url: >-
+          https://eu-central-1.console.aws.amazon.com/dynamodbv2/home?region=eu-central-1#dashboard
+        target: sametab
+        id: 3_235_dynamodb
+      - title: Parameter Store
+        icon: fas fa-cog
+        url: >-
+          https://eu-central-1.console.aws.amazon.com/systems-manager/parameters/?region=eu-central-1&tab=Table
+        target: sametab
+        id: 4_235_parameterstore
+      - title: CloudWatch
+        icon: fas fa-eye
+        url: >-
+          https://eu-central-1.console.aws.amazon.com/cloudwatch/home?region=eu-central-1#home:
+        target: sametab
+        id: 5_235_cloudwatch
