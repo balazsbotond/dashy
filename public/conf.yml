@@ -12,8 +12,8 @@ appConfig:
 pageInfo:
   title: Kezdőlap
   description: Üdv újra itt!
-  footerText: ''
   navLinks: []
+  footerText: ''
 sections:
   - name: Olvasás
     icon: fas fa-rocket
@@ -54,6 +54,11 @@ sections:
         url: https://reader.botond.online
         target: sametab
         id: 5_857_reader
+      - title: 24.hu
+        icon: favicon
+        url: https://24.hu
+        target: sametab
+        id: 6_857_hu
     displayData:
       sortBy: default
       rows: 1
