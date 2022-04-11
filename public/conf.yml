@@ -205,3 +205,16 @@ sections:
         url: >-
           https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/welcome.html
         id: 1_1511_awsjssdkguide
+  - name: Egyéb hasznos
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Gyógyszerkcsh
+        icon: favicon
+        url: https://go.drugbank.com/
+        target: sametab
+        id: 0_1430_gygyszerklcsnhatsok
