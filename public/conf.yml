@@ -205,6 +205,11 @@ sections:
         url: >-
           https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/welcome.html
         id: 1_1511_awsjssdkguide
+      - title: AWS CLI Reference
+        icon: fas fa-book
+        url: https://docs.aws.amazon.com/cli/latest/index.html
+        target: sametab
+        id: 2_1511_awsclireference
   - name: Egyéb hasznos
     displayData:
       sortBy: default
@@ -217,4 +222,4 @@ sections:
         icon: favicon
         url: https://go.drugbank.com/
         target: sametab
-        id: 0_1430_gygyszerklcsnhatsok
+        id: 0_1430_gygyszerkcsh
