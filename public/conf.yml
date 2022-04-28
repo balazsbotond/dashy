@@ -159,7 +159,7 @@ sections:
     items:
       - title: GitLab
         icon: fab fa-gitlab
-        url: http://gitlab.globessey.local/
+        url: http://gitlab.ar.local/
         target: sametab
         id: 0_942_gitlab
       - title: Redmine
