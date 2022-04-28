@@ -171,7 +171,7 @@ export default {
       if (data.appConfig.theme) {
         localStorage.setItem(localStorageKeys.THEME, data.appConfig.theme);
       }
-      InfoHandler('Config has succesfully been saved in browser storage', 'Config Update');
+      InfoHandler('Config has successfully been saved in browser storage', 'Config Update');
       this.showToast(this.$t('config-editor.success-msg-local'), true);
       this.$store.commit(StoreKeys.SET_EDIT_MODE, false);
     },
@@ -200,7 +200,7 @@ export default {
         } else {
           this.showToast(this.$t('config-editor.error-msg-cannot-save'), false);
         }
-        InfoHandler('Config has been written to disk succesfully', 'Config Update');
+        InfoHandler('Config has been written to disk successfully', 'Config Update');
         this.progress.end();
         this.$store.commit(StoreKeys.SET_EDIT_MODE, false);
       })

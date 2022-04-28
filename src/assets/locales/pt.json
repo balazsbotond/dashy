@@ -50,7 +50,7 @@
     "reset-config-msg-l1": "Isso removerá todas as configurações do usuário do armazenamento local, mas não afetará o arquivo 'conf.yml'.",
     "reset-config-msg-l2": "Você deve primeiro fazer backup de todas as alterações feitas localmente, se quiser usá-las no futuro.",
     "reset-config-msg-l3": "Tem certeza de que deseja continuar?",
-    "data-cleared-msg": "Dados apagados com sucesso",
+    "data-cleared-msg": "Dados apagados com successo",
     "actions-label": "Ações",
     "copy-config-label": "Copiar configuração",
     "data-copied-msg": "A configuração foi copiada para a área de transferência",
@@ -103,7 +103,7 @@
     "show-all-button": "Mostrar todas as variáveis",
     "save-button": "Salve ",
     "cancel-button": "Cancelar",
-    "saved-toast": "{theme} atualizado com sucesso",
+    "saved-toast": "{theme} atualizado com successo",
     "copied-toast": "Dados do tema para {theme} copiados para a área de transferência",
     "reset-toast": "Cores personalizadas para {theme} removidas"
   },
@@ -115,8 +115,8 @@
     "valid-label": "A configuração é válida",
     "status-success-msg": "Tarefa Concluída",
     "status-fail-msg": "Falha na Tarefa",
-    "success-msg-disk": "Arquivo de configuração gravado no disco com sucesso",
-    "success-msg-local": "Alterações locais salvas com sucesso",
+    "success-msg-disk": "Arquivo de configuração gravado no disco com successo",
+    "success-msg-local": "Alterações locais salvas com successo",
     "success-note-l1": "O aplicativo deve ser reconstruído automaticamente.",
     "success-note-l2": "Isso pode levar até um minuto.",
     "success-note-l3": "Você precisará atualizar a página para que as alterações tenham efeito.",
@@ -135,7 +135,7 @@
     "rebuilding-status-1": "Construção...",
     "rebuilding-status-2": "Isso pode levar alguns minutos",
     "error-permission": "Você não tem permissão para acionar esta ação",
-    "success-msg": "Construção concluída com sucesso",
+    "success-msg": "Construção concluída com successo",
     "fail-msg": "A operação de construção falhou",
     "reload-note": "Agora é necessário recarregar a página para que as alterações tenham efeito",
     "reload-button": "Recarregar página"
@@ -160,8 +160,8 @@
     "backup-missing-password": "Senha ausente",
     "backup-error-unknown": "Incapaz de processar o pedido",
     "backup-error-password": "Senha incorreta. Por favor, digite sua senha atual.",
-    "backup-success-msg": "Completado com sucesso",
-    "restore-success-msg": "Configuração restaurada com sucesso"
+    "backup-success-msg": "Completado com successo",
+    "restore-success-msg": "Configuração restaurada com successo"
   },
   "menu": {
     "sametab": "Abrir na guia atual",
